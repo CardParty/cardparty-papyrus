@@ -3,7 +3,7 @@ use std::vec;
 use serde_json::error;
 
 use super::{
-    abstraction::TableRegister,
+    abstraction::{Query, TableRegister},
     deserialization::{Deck, Table},
     dyncode::{DynCodeSegment, ParserSegment},
     error::{CompilerError, EditorError},
