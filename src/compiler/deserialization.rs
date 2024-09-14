@@ -26,6 +26,7 @@ pub enum WinConditionType {
     GreatestValue,
     LowestValue,
     ClosestToValue,
+    ReachValue,
 }
 
 #[derive(Serialize, Debug, Deserialize)]
@@ -41,7 +42,7 @@ pub enum WinConditionCheck {
 pub enum SortingAlgorithm {
     Descending,
     ClosestToValue,
-    Rising,
+    Ascending,
 }
 
 #[derive(Serialize, Debug, Deserialize)]
